@@ -39,8 +39,8 @@ Additional encoded variables: - tanam_angka - panen_angka
 
 ### 1. Yearly Yield Trend
 
--   Calculated average corn yield per year\
--   Visualized using bar chart\
+-   Calculated average corn yield per year
+-   Visualized using bar chart
 -   Identified highest and lowest yield years
 
 ### 2. Yield by Planting Month
@@ -53,55 +53,48 @@ Additional encoded variables: - tanam_angka - panen_angka
 
 ### 4. Yield by City
 
--   Average yield per kota\
+-   Average yield per kota
 -   Identified most productive regions
 
 ### 5. Correlation Analysis
 
 -   Heatmap showing relationships among:
-    -   temperature\
-    -   kelembaban\
-    -   curah_hujan\
+    -   temperature
+    -   kelembaban
+    -   curah_hujan
     -   yield
 
 ### 6. Regression Analysis (OLS Model)
 
--   Encoded months numerically\
+-   Encoded months numerically
 -   Built OLS model with:
-    -   tanam_angka\
-    -   tahun\
-    -   temperature\
-    -   kelembaban\
-    -   curah_hujan\
+    -   tanam_angka
+    -   tahun
+    -   temperature
+    -   kelembaban
+    -   curah_hujan
 -   Evaluated statistical significance
 
 ## 📈 Visualizations Included
 
--   Bar chart of yearly yield\
--   Stacked bar chart by planting month\
--   Yield per planting and harvest month\
--   Yield per city\
+-   Bar chart of yearly yield
+-   Stacked bar chart by planting month
+-   Yield per planting and harvest month
+-   Yield per city
 -   Correlation heatmap
 
 ## 🧠 Key Findings (Fill based on your results)
 
--   Rainfall strongly influences yield\
--   High humidity reduces productivity\
--   Temperature shows moderate seasonal impact\
+-   Rainfall strongly influences yield
+-   High humidity reduces productivity
+-   Temperature shows moderate seasonal impact
 -   Planting month significantly impacts yield distribution
 
-## 🧪 How to Run the Code
-
-    pip install -r requirements.txt
-    jupyter notebook
 
 ## 🚀 Future Improvements
 
--   Incorporate wind-speed variable\
--   Build predictive machine learning model\
--   Analyze vegetative vs generative phase weather impact\
+-   Incorporate wind-speed variable
+-   Build predictive machine learning model
+-   Analyze vegetative vs generative phase weather impact
 -   Develop dashboard (Streamlit/Power BI)
 
-## 👤 Author
-
-Muhamad Agus
